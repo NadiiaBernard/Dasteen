@@ -39,11 +39,12 @@ form {
     display: flex;
     gap: 20px;
 }
+
 .logo h3 {
-     color: #001858;
-     font-size: 36px;
-     font-weight: 600;
- }
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
 
 .logo h3 span {
     color: #6246EA;
@@ -226,13 +227,15 @@ section.article {
     background: #FFFFFE;
 }
 
-.article-list{
+.article-list {
     display: flex;
     flex-direction: column;
 }
-.article-group{
+
+.article-group {
     margin-top: 80px;
 }
+
 .article-group-title {
     display: flex;
     justify-content: space-between;
@@ -254,9 +257,10 @@ section.article {
     text-transform: capitalize;
 }
 
-.article-group-card>img {
-  margin-bottom: 25px;
+.article-group-card > img {
+    margin-bottom: 25px;
 }
+
 .article-group-card {
     display: flex;
     width: 300px;
@@ -266,7 +270,7 @@ section.article {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    background:  #FFFFFE;
+    background: #FFFFFE;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
@@ -307,14 +311,14 @@ section.article {
     margin-top: 80px;
 }
 
-.article-group-cards{
+.article-group-cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 36px;
 }
 
-.btn-wrapper>button{
+.btn-wrapper > button {
     border-radius: 8px;
     background: #6246EA;
     width: 165px;
@@ -325,7 +329,7 @@ section.article {
     text-transform: capitalize;
 }
 
-.btn-wrapper{
+.btn-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,14 +338,15 @@ section.article {
 
 /*-----article-----*/
 
-article{
-    background:  #EFF0F3;
+article {
+    background: #EFF0F3;
     height: 453px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-article .subscribe{
+
+article .subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,7 +354,7 @@ article .subscribe{
     gap: 30px;
 }
 
-.img-subscr{
+.img-subscr {
     height: 130px;
     width: 130px;
     border-radius: 50%;
@@ -358,14 +363,15 @@ article .subscribe{
     justify-content: center;
     align-items: center;
 }
-.subscribe h3{
-    color:  #2B2C34;
+
+.subscribe h3 {
+    color: #2B2C34;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
 }
 
-.subscribe p{
+.subscribe p {
     color: #C0C0C0;
     text-align: center;
     font-size: 20px;
@@ -373,59 +379,59 @@ article .subscribe{
 
 /*-----footer-----*/
 
-footer{
+footer {
     height: 435px;
-    background:  #E4E5E9;
+    background: #E4E5E9;
     padding-top: 70px;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-left{
+.footer-left {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer-left p{
-    color:  #2B2C34;
+.footer-left p {
+    color: #2B2C34;
     font-size: 18px;
 }
 
-.social-media{
+.social-media {
     display: flex;
     gap: 30px;
 }
 
-.footer-right{
+.footer-right {
     display: flex;
     justify-content: space-between;
     gap: 95px;
 }
 
-.footer-right nav ul{
+.footer-right nav ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-top: 25px;
 }
 
-.footer-right h3{
-    color:  #2B2C34;
+.footer-right h3 {
+    color: #2B2C34;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.footer-right nav ul li{
-    color:  #2B2C34;
+.footer-right nav ul li {
+    color: #2B2C34;
     font-size: 18px;
 }
 
-.footer-bottom{
+.footer-bottom {
     border-top: 1px solid #C0C0C0;
     padding-top: 26px;
     margin-top: 50px;
