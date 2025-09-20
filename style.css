@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
-.w-1252{
+.w-1252 {
     width: 1252px;
     margin: 0 auto;
 }
 
 /*-----header-----*/
 
-header{
+header {
     height: 86px;
     width: 100%;
     background: #EFF0F3;
@@ -19,45 +19,47 @@ header{
     top: 0;
 }
 
-.header-links{
+.header-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header-links .nav-btn{
+
+.header-links .nav-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
-.header-links nav ul{
+
+.header-links nav ul {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.header-logo h3{
+.header-logo h3 {
     color: #001858;
     font-size: 36px;
     font-weight: 600;
 }
 
-.header-logo h3 span{
-    color:  #6246EA;
+.header-logo h3 span {
+    color: #6246EA;
     font-size: 18px;
     font-weight: 700;
 }
 
-.header-links ul li{
-    color:  #2B2C34;
+.header-links ul li {
+    color: #2B2C34;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
 }
 
-.nav-btn button{
+.nav-btn button {
     border-radius: 4px;
-    background:  #6246EA;
+    background: #6246EA;
     display: flex;
     align-items: center;
     padding: 10px 17px;
@@ -69,23 +71,27 @@ header{
 }
 
 /*-----main-----*/
-main{
+main {
     margin-top: 86px;
     background: #EFF0F3;
     height: 900px;
 }
 
-main .dev-img{
+main .dev-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 250px 0 263px;
 }
 
-main .developer{
+main .developer {
     width: 667px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.developer h1{
+.developer h1 {
     width: 617px;
     color: #2B2C34;
     font-size: 64px;
@@ -93,7 +99,7 @@ main .developer{
     text-transform: capitalize;
 }
 
-.developer p{
+.developer p {
     color: #9A9494;
     font-size: 20px;
     font-weight: 400;
@@ -101,3 +107,152 @@ main .developer{
     padding-left: 12px;
 }
 
+.developer form input:nth-child(1) {
+    width: 444px;
+    height: 67px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    border: none;
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+}
+
+.developer input::placeholder {
+    color: #C0C0C0;
+    font-size: 20px;
+}
+
+.developer form input:nth-child(2) {
+    width: 145px;
+    height: 57px;
+    border: none;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.developer form {
+    display: flex;
+    gap: 20px;
+}
+
+/*-----section-category-----*/
+section.category {
+    height: 500px;
+    background: #EFF0F3;
+    padding-top: 67px;
+}
+
+section .program-language {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.program-language .category-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-title h4 {
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.category-title h5 {
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.language-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-card {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 65px 92px 95px 30px;
+}
+
+.language-card p {
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.language-card-active {
+    background: #6246EA;
+}
+
+.language-card-active p {
+    color: #FFFFFE;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.language-card-active svg {
+    border-radius: 8px;
+    background: #FFFFFE;
+    width: 60px;
+    height: 60px;
+    padding: 18px 10px;
+}
+
+/*-----section-article-----*/
+
+section.article {
+    height: 4792px;
+    background: #FFFFFE;
+}
+
+.article-group-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-group-title h4 {
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.article-group-title h5 {
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.article-group-card p {
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.info-about-activity {
+    display: flex;
+}
